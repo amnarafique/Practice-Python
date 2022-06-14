@@ -383,7 +383,6 @@ descriptor as part of a meaningful message. For example, if the user enters 5.5 
 your program should indicate that a magnitude 5.5 earthquake is considered to be a
 moderate earthquake.
 """
-elif mag == 2.0 or mag < 3.0:
 mag = float(input('enter the magnitude of earth quick: '))
 
 if mag < 2:
